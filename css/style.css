@@ -44,7 +44,7 @@ background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 
 .nav-bar {
     position: relative;
-    width: 1146px;
+    width: 1120px;
     left: 220px;
     height: 68px;
     background-color: #FDF1EB;
@@ -59,6 +59,40 @@ background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     padding-top: 5px;
 }
 
-.nav-bar p:nth-last-child(2) {
-   font-size: 22px;
+#bigger {
+    font-size: 22px;
 }
+
+select {
+    padding-left: 10px;
+    font-family: 'FontAwesome';
+    position: absolute;
+    height: 35px;
+    width: 90px;
+    left: 789px;
+    top: 15px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;    
+}
+
+.welcome  {
+    position: absolute;
+    left: 908px;
+    bottom: 20px;
+}
+
+.welcome p {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px; 
+    
+}
+
+.login {
+    position: absolute;
+    left: 167px;
+    top: 3px;
+}
+
