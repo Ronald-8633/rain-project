@@ -1,13 +1,13 @@
 
 
-.canvas {
+.canvas{
     display: flex;
-    height: 2052px;
+    height: 2152px;
     width: 1340px; 
-    border: 1px solid black;
+
 }
 
-.sidebar-canvas {
+.sidebar-canvas{
     position: sticky;
     top: 0;
     display: flex;
@@ -17,7 +17,8 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
-.sidebar-title {
+.sidebar-title{
+    font-family: 'Roboto';
     font-size: 30px;
     font-weight: bold;
     color: white;
@@ -27,7 +28,7 @@
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 }
 
-.list-sidebar ul li {
+.list-sidebar ul li{
     font-family: 'Roboto';
     font-size: 15px;
     line-height: 29px;
@@ -37,20 +38,20 @@
     transition: 0.5s;
 }
 
-.list-sidebar ul li:hover {
+.list-sidebar ul li:hover{
     padding-left: 30px;
     cursor: pointer;
     background-color: #FDF1EB;
     border-left: solid 5px #EE7A3A;
 }
 
-.header {
+.header{
     display: flex;
     line-height: 68px;
     background-color: #FDF1EB;
 }
 
-.texto-header {
+.texto-header{
     font-family: 'Roboto';
     padding-left: 36px;
     padding: 6px 30px;
@@ -64,7 +65,7 @@ h1 {
     font-size: 20px;
 }
 
-.btn-canvas {
+.btn-canvas{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,7 +73,8 @@ h1 {
     width: 100px;
 }
 
-.btn {
+.btn{
+    font-family: 'Quicksand';
     width: 97px;
     height: 34px;
     border-radius: 3px;
@@ -80,31 +82,33 @@ h1 {
     border: 1px solid lightgray;
 }
 
-.login-canvas {
+
+
+.login-canvas{
     position: relative;
     width: 250px;
 }
 
-.login-canvas p {
+.login-canvas p{
     position: absolute;
     left: 60px;
 }
 
-.login-canvas p:nth-child(1) {
+.login-canvas p:nth-child(1){
     left: 170px;
     bottom: 20px;
 }
 
-.icon-box {
+.icon-box{
     position: relative;
     width: 100px;
 }
 
-.icon-box img {
+.icon-box img{
     position: absolute;
 }
 
-.notification {
+.notification{
     position: absolute;
     background-color: #F85959;
     border-radius: 50%;
@@ -113,7 +117,7 @@ h1 {
     left: 22px;
 }
 
-.number {
+.number{
     position: absolute;
     color: white;
     font-weight: 700;
@@ -121,31 +125,31 @@ h1 {
     left: 25px;
     bottom: 28px;
 }
-.expansion {  
+.expansion{  
     display: flex; /**/
     flex-direction:column;
     align-items: initial;
     width: 100%;
 }
 
-.main {
+.main{
     width: 100%;
     height: 100%;
     padding: 36px 36px;
 }
 
-.section-video-canvas {
+.section-video-canvas{
     display: flex;
     height: 439px;
     width: 100%;
 }
 
-.section-video {
+.section-video{
     height: 100%;
     width: 781px;
 }
 
-.orange-title {
+.orange-title{
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 20px;
@@ -154,36 +158,39 @@ h1 {
 }
 
 
-.details-canvas {
+.details-canvas{
     height: 100%;
     width: 100%;
 }
 
-.details-btns-canvas {
+.details-btns-canvas{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 61px;
 }
 
-.details-btns {
+.details-btns{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     width: 100%;
     height: 30px;
+    padding: 0px 85px;
+    padding-right: 16px;
 }
 
-.btn1:hover , .btn2:hover {
+.btn1:hover , .btn2:hover{
     opacity: 0.5;
 }
 
-.details-txt {
+.details-txt{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 30px;
+    padding-left: 80px;
     font-size: 14px;
     font-family: 'Roboto';
     color: #ED7839 ;
@@ -192,64 +199,71 @@ h1 {
     cursor: pointer;
 }
 
-.txt:hover {
+.txt:hover{
     text-decoration: underline;
 }
 
-.btn1 {
+.btn1{
     height: 31px;
     width: 120px;
     border-radius: 4px;
-    border: 1px solid lightgray;
     background: #ED7839;
     color: white;
+    border: 1px solid lightgray;
 }
 
-.btn2 {
+.btn2{
     width: 43px;
     height: 31px;
     border-radius: 4px;
-    border: 1px solid lightgray;
     background: #ED7839;
     color: white;
+    border: 1px solid lightgray;
 }
 
-.authors-canvas {
+.authors-canvas{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 378px;
-    border: 1px solid lightgray;
     border-radius: 4px;
-    padding: 10px 12px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 40px;
 }
 
-.title-base {
+.title-base{
     background-color: #FDF1EB;
     height: 42px;
     width: 100%;
     border-radius: 4px;
     padding: 10px 10px;
+    border: 1px solid lightgrey;
 }
 
-.authors {
+.authors{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
     padding-left: 10px;
     height: 100%;
     font-family: 'Quicksand';
     color: #5C5C5C;
-    background:url()
+    border: 1px solid #ECECEC;
+
 }
 
-.bottom {
+.bottom{
     opacity: 0.5;
+    padding-bottom: 60px;
 }
 
+#bolding {
+    font-size: 14px;
+    color: #5C5C5C;;
+    font-weight: 900;
+}
 
-.default-title {
+.default-title{
     color:#4E4E4E;
     font-size: 20px;
     font-weight: bold;
@@ -257,7 +271,7 @@ h1 {
 
 }
 
-.resume-canvas {
+.resume-canvas{
     width: 100%;
     height: 1460px;
 }
@@ -267,7 +281,7 @@ h1 {
     padding: 10px 15px;
 }
 
-.resume-txt {
+.resume-txt{
     height: 1407px;
     font-size: 14px;
     color: #5C5C5C;
@@ -275,29 +289,25 @@ h1 {
     font-family: 'Quicksand';
 }
 
-.post {
-    border: 1px solid black;
+.post{
+    border: 1px solid lightgrey;
     height: auto;
     padding-left: 10px;
+    cursor: pointer;
 }
 
-.post p {
+.post p{
     line-height: 20px ;
     margin: 10px 0
 }
 
-#more {
-    display: none;
-}
-
-.discuss-canvas {
-    background-color: black;
+.discuss-canvas{
     width: 100%;
-    height: 779px;
+    height: 1200px;
     border: 1px solid lightgray;
 }
 
-.share {
+.share{
     display: flex;
     flex-direction: column;
     height: 227px;
@@ -306,7 +316,7 @@ h1 {
     padding-top: 30px;
 }
 
-.share-ideas {
+.share-ideas{
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -315,7 +325,7 @@ h1 {
     padding: 0 170px;
 }
 
-.share-ideas2 {
+.share-ideas2{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -323,7 +333,7 @@ h1 {
     padding: 0 170px;
 }
 
-.vectors {
+.vectors{
     display: flex;
     justify-content: center;
 }
@@ -331,68 +341,79 @@ h1 {
 .vectors ul{ 
     display: flex;;
 }
-.vectors ul li {
+.vectors ul li{
     display: inline;
     padding: 0 50px;
 }
 
-.vectors-2 {
-    color: yellow;
-}
-
-#default-font {
+#default-font{
     font-family: 'Quicksand';
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
+
 }
 
-.topic-btn {
+.topic-btn{
     height: 32px;
     width: 133px;
     border-radius: 4px;
     background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
-    box-shadow: 0px 2px 2px 0px #000000 24%;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Quicksand';
     color: white;
     position: absolute;
+    border: 1px solid lightgray;
 }
 
-.topic-btn-box {
+.topic-btn-box{
     display: flex;
     justify-content: center;
-    background-color: tomato;
+
     padding-top: 10px;
+
 }
 
-.comments-canvas {
-    background-color: violet;
+.comments-canvas{
     width: 1000px;
     height: 508px;
     margin: 0 21px;
     border-top: 1px solid lightgray;
 }
 
-.comment1 {
-    background-color: yellow;
+.comment1, .comment2{
     width: 1000px;
     height: 148px;
     padding: 17px 24px;
+    margin-bottom: 17px ;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
 }
 
-.comment-title {
+.comment2{
+    width: 1000px;
+    height: 760px;
+    padding: 17px 24px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    cursor: pointer;  
+}
+
+.comment-title{
     height: 20px;
     width: 100%;
 }
 
-.comment-name {
+.comment-name{
     height: 75px;
     width: 100%;
 }
 
-#comecinho {
+#comecinho{
     font-family: 'Quicksand';
     font-size: 14px;
     font-weight: 400;
@@ -400,7 +421,7 @@ font-weight: 400;
 
 }
 
-.likes {
+.likes{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -408,21 +429,64 @@ font-weight: 400;
     width: 150px;
 }
 
-.heart-btn {
+.heart-btn{
+    display: flex;
+    justify-content: center;
     background: #ED7839;
     box-shadow: 0px 2px 2px 0px #000000 24%;
     height: 19px;
-    width: 29px;
+    width: 27px;
     color: white;
 }
 
-h5 {
+h5{
     font-family: 'Quicksand';
     font-size: 16px;
     font-weight: 700;
     color: #ED7839;
 }
 
+.names{
+    font-family: 'Quicksand';
+    font-size: 14px;
+    color:#4D4D4D;
+    height: 625px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.names h6{
+    font-weight: bold;
+    color:#5C5C5C;
+}
+
+.name1 , .name3 , .name4 {
+    background: #F8F8F8;
+}
+
+.name1 , .name2 , .name4{
+    height: 131px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.name3{
+    width: 100%;
+    height: 184px;
+    border: 1px solid lightgray;
+}
+
+.as , .cf , .ac{
+    position: relative;
+    display: flex;
+}
+
+.coautor{
+    position: absolute;
+    right: 0;
+    color:#ED7839;
+    font-weight: 700;
+}
 
 
 
