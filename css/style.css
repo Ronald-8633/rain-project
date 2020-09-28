@@ -348,12 +348,17 @@ font-weight: 400;
     width: 150px;
 }
 
+#orange-dot{
+    color: #ED7839;
+}
+
 .heart-btn{
     background: #ED7839;
-    box-shadow: 0px 2px 2px 0px #000000 24%;
+    border: 1px solid lightgray;
     height: 19px;
     width: 27px;
     color: white;
+    border-radius: 3px;
 }
 
 h5{
