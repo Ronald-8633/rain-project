@@ -1,10 +1,8 @@
 
-
 .canvas{
     display: flex;
     height: 2152px;
-    width: 1340px; 
-
+    width: 100%; 
 }
 
 .sidebar-canvas{
@@ -46,89 +44,51 @@
 }
 
 .header{
-    display: flex;
-    line-height: 68px;
     background-color: #FDF1EB;
+    font-family: 'Quicksand';
+    color: #725C5C;
+
 }
 
-.texto-header{
-    font-family: 'Roboto';
-    padding-left: 36px;
-    padding: 6px 30px;
-    width: 60%;
-    line-height: 17px;
+.texto-header {
     font-size: 14px;
+    margin-right: 50px;
 }
 
 h1 {
-    
-    font-size: 20px;
+    font-size: 22px;
 }
 
-.btn-canvas{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-}
 
-.btn{
-    font-family: 'Quicksand';
-    width: 97px;
-    height: 34px;
-    border-radius: 3px;
-    font-size: 14px;
+.btn-container {
     border: 1px solid lightgray;
-}
-
-
-
-.login-canvas{
-    position: relative;
-    width: 250px;
-}
-
-.login-canvas p{
-    position: absolute;
-    left: 60px;
-}
-
-.login-canvas p:nth-child(1){
-    left: 170px;
-    bottom: 20px;
-}
-
-.icon-box{
-    position: relative;
-    width: 100px;
-}
-
-.icon-box img{
-    position: absolute;
+    border-radius: 3px;
 }
 
 .notification{
     position: absolute;
-    background-color: #F85959;
-    border-radius: 50%;
     height: 12px;
     width: 12px;
-    left: 22px;
+    background: #F85959;
+    border-radius: 10px;
+}
+
+.notification-container{
+    position: relative;
+    bottom: 18px;
+    right: 12px;
 }
 
 .number{
     position: absolute;
     color: white;
-    font-weight: 700;
     font-size: 10px;
-    left: 25px;
-    bottom: 28px;
+    font-family: 'Roboto';
+    left: 3px;
+    top: 1px;
 }
+
 .expansion{  
-    display: flex; /**/
-    flex-direction:column;
-    align-items: initial;
     width: 100%;
 }
 
@@ -140,8 +100,6 @@ h1 {
 
 .section-video-canvas{
     display: flex;
-    height: 439px;
-    width: 100%;
 }
 
 .section-video{
@@ -157,7 +115,6 @@ h1 {
     color: #ED7839;
 }
 
-
 .details-canvas{
     height: 100%;
     width: 100%;
@@ -171,13 +128,7 @@ h1 {
 }
 
 .details-btns{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 30px;
-    padding: 0px 85px;
-    padding-right: 16px;
+    margin-left: 86px;
 }
 
 .btn1:hover , .btn2:hover{
@@ -242,19 +193,24 @@ h1 {
 }
 
 .authors{
-    display: flex;
-    flex-direction: column;
     padding-left: 10px;
     height: 100%;
     font-family: 'Quicksand';
     color: #5C5C5C;
     border: 1px solid #ECECEC;
+    height: 395px;
+}
 
+.apresentacao {
+    padding-top: 20px;
+}
+#move{
+    margin-top: 5px;
 }
 
 .bottom{
     opacity: 0.5;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 #bolding {
@@ -268,7 +224,6 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Quicksand';
-
 }
 
 .resume-canvas{
@@ -308,42 +263,12 @@ h1 {
 }
 
 .share{
-    display: flex;
-    flex-direction: column;
     height: 227px;
     width: 100%;
-    padding: 0 10px;
-    padding-top: 30px;
 }
 
-.share-ideas{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    height: 40px;
-    padding: 0 170px;
-}
-
-.share-ideas2{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 40px;
-    padding: 0 170px;
-}
-
-.vectors{
-    display: flex;
-    justify-content: center;
-}
-
-.vectors ul{ 
-    display: flex;;
-}
-.vectors ul li{
-    display: inline;
-    padding: 0 50px;
+#move2{
+    margin-bottom: 20px;
 }
 
 #default-font{
@@ -390,7 +315,6 @@ font-weight: 400;
     border: 1px solid lightgray;
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-
 }
 
 .comment2{
@@ -417,21 +341,14 @@ font-weight: 400;
     font-family: 'Quicksand';
     font-size: 14px;
     font-weight: 400;
-
-
 }
 
 .likes{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
     height: 22px;
     width: 150px;
 }
 
 .heart-btn{
-    display: flex;
-    justify-content: center;
     background: #ED7839;
     box-shadow: 0px 2px 2px 0px #000000 24%;
     height: 19px;
@@ -487,9 +404,6 @@ h5{
     color:#ED7839;
     font-weight: 700;
 }
-
-
-
 
 
 

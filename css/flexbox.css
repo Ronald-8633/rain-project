@@ -1,0 +1,96 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 36px;
+    height: 68px;
+    
+}
+
+.welcome-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 50px;
+}
+
+.expansion{
+    display: flex;
+    flex-direction:column;
+}
+
+.section-video-canvas{
+    display: flex;
+}
+
+
+.details-btns{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.authors{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.authors-canvas{
+    display: flex;
+    flex-direction: column;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.share {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.share-ideas{
+    display: flex;
+    justify-content: center;
+}
+
+.share-ideas2 {
+    display: flex;
+    justify-content: center;
+}
+
+.vectors{
+    display: flex;
+    justify-content: center;
+}
+
+.vectors ul{ 
+    display: flex;;
+}
+.vectors ul li{
+    display: inline;
+    padding: 0 50px;
+}
+
+
+.comment2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.likes{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.heart-btn {
+    display: flex;
+    justify-content: center;
+}
+
+
