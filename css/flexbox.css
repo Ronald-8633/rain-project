@@ -23,6 +23,10 @@
     display: flex;
 }
 
+.details-btns-canvas{
+    display: flex;
+    flex-direction: column;
+}
 
 .details-btns{
     display: flex;
